@@ -1,0 +1,97 @@
+nav{
+    height: 80px;
+    background-color: rgb(117, 170, 219);
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 50px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    justify-content: right;
+}
+
+.menu ul li a:hover{
+    background-color:white;
+    color : rgb(117, 170, 219);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(bandera_y_mate.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0%; 
+    margin: 0;
+}
+
+section{
+
+    border-radius: 20px;
+    width: 50%;
+    padding: 30px;
+    background-color: rgb(117, 170, 219);
+    color: white;
+    font-size: 30px;
+    text-align: start;
+}
+input{
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.mensaje input{
+    border-radius: 20px;
+    width: 100%;
+    height: 230px;
+    font-size: 20px;
+}
+
+center h2{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+button{
+    color: rgb(117, 170, 219);
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+footer  {
+    background-color: rgb(117, 170, 219);
+    color: white;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10%;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
