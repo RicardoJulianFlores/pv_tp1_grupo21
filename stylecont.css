@@ -4,6 +4,7 @@ nav{
     display: flex;
     color: rgb(255, 255, 255);
     align-items: center;
+    margin-bottom: 20px;
 }
 .logo{
     display: flex;
@@ -47,14 +48,14 @@ body{
 }
 
 section{
-
+    margin: auto;
     border-radius: 20px;
     width: 50%;
-    padding: 30px;
+    padding: 40px;
     background-color: rgb(117, 170, 219);
     color: white;
     font-size: 30px;
-    text-align: start;
+    
 }
 input{
     border-radius: 20px;
@@ -66,13 +67,13 @@ input{
 .mensaje input{
     border-radius: 20px;
     width: 100%;
-    height: 230px;
+    height: 200px;
     font-size: 20px;
 }
 
-center h2{
+h2{
     color:rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 button{
