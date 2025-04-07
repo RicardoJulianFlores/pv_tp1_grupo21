@@ -53,18 +53,6 @@ section{
     color: white;
     font-size: 30px;
 }
-input{
-    border-radius: 20px;
-    width: 100%;
-    height: 30px;
-    font-size: 20px;
-}
-.mensaje input{
-    border-radius: 20px;
-    width: 100%;
-    height: 200px;
-    font-size: 20px;
-}
 h1 {
     font-size: 45px; 
     font-weight: bold;
