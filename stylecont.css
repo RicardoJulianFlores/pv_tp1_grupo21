@@ -136,3 +136,13 @@ h1 {
     margin-top: 20px;
     color: rgb(7, 7, 7)
 }
+
+.imagen-centrada {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imagen-centrada img {
+    max-width: 100%;
+    height: auto;
+  }
