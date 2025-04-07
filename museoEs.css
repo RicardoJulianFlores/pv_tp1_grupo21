@@ -1,0 +1,109 @@
+nav{
+    height: 80px;
+    background-color: rgb(117, 170, 219);
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 50px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    justify-content: right;
+}
+.menu ul li a:hover{
+    background-color:white;
+    color : rgb(117, 170, 219);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+body{
+    background-image: url(bandera_y_mate.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0%; 
+    margin: 0;
+}
+section{
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 20px;
+    width: 50%;
+    padding: 40px;
+    background-color: rgb(117, 170, 219);
+    color: white;
+    font-size: 30px;
+}
+input{
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+.mensaje input{
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+}
+h1 {
+    font-size: 45px; 
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(7, 7, 7)
+}
+h4 {
+    font-size: 45px; 
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(7, 7, 7)
+}
+h2{
+    color:rgb(117, 170, 219);
+    font-size: 30px;
+}
+footer  {
+    background-color: rgb(117, 170, 219);
+    color: white;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10%;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 20px;
+} 
+.imagenes{
+    height: 500px ;
+    width: 650px ;
+}
+.articulo ul {
+    padding: 25px;
+}
+.articulo img {
+    display: block;
+        margin: 0 auto;
+}
+.imagen-museo {
+    height: 500px;
+    width: 650px;
+}
