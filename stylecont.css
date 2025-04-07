@@ -97,6 +97,9 @@ footer  {
     justify-content: center;
     margin-top: 20px;
 } 
+h1 {
+    color: black;
+}
 /*--Pagina museo*/
 .imagenes{
     height: 500px ;
@@ -126,4 +129,10 @@ footer  {
 .imagen-museo {
     height: 500px;
     width: 800px;
+}
+.tituloindex {
+    font-size: 45px; 
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(7, 7, 7)
 }
