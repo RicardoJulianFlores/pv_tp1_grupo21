@@ -48,6 +48,7 @@ body{
 }
 
 section{
+    border: 1px solid black;
     margin: auto;
     border-radius: 20px;
     width: 50%;
@@ -95,4 +96,34 @@ footer  {
     font-size: 20px;
     justify-content: center;
     margin-top: 20px;
+} 
+/*--Pagina museo*/
+.imagenes{
+    height: 500px ;
+    width: 800px ;
+}
+
+
+/*--pagina index*/
+.articulo{
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 20px;
+    width: 50%;
+    padding: 40px;
+    background-color: rgb(117, 170, 219);
+    color: white;
+    font-size: 30px;
+    
+}
+.articulo ul {
+    padding: 25px;
+}
+.articulo img {
+    display: block;
+        margin: 0 auto;
+}
+.imagen-museo {
+    height: 500px;
+    width: 800px;
 }
