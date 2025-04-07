@@ -72,9 +72,11 @@ input{
     font-size: 20px;
 }
 
-h2{
-    color:rgb(255, 255, 255);
-    font-size: 30px;
+h2 {
+    font-size: 45px; 
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(7, 7, 7)
 }
 
 button{
@@ -136,3 +138,13 @@ h1 {
     margin-top: 20px;
     color: rgb(7, 7, 7)
 }
+
+.imagen-centrada {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imagen-centrada img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -92,11 +92,10 @@ footer  {
     justify-content: center;
     margin-top: 20px;
 } 
-/*.imagenes{
+.imagenes{
     height: 500px ;
     width: 650px ;
-}*/
-
+}
 .articulo ul {
     padding: 25px;
 }
@@ -105,7 +104,6 @@ footer  {
         margin: 0 auto;
 }
 .imagen-museo {
-    max-height: 458px;
-    width: 100%;
-    display: block;
+    height: 500px;
+    width: 650px;
 }
